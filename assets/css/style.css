@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+ 
+header {
+    color: red;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    text-align: center;
+}
