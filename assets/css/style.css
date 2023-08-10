@@ -1,18 +1,18 @@
-* {
+*{
     box-sizing: border-box;
 }
- 
-header {
-    color: red;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
 
-main {
-    text-align: center;
-}
-
-button {
-    margin-left: -5px;
-}
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ #gmp-map {
+    height: 70%;
+    margin-bottom: 60%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
