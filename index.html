@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Find Gas Near You</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1IO8-Ae8tdEly03b3iEO9lgxucegS834&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1IO8-Ae8tdEly03b3iEO9lgxucegS834&callback=initMap&libraries&v=weekly" defer></script>
 </head>
 
 <body>
@@ -40,18 +40,10 @@
             </div>
 
             <div class="map">
-                <input maxlength="5" id="zipCode" type="text" placeholder="Enter a zip code" /> <button id="searchButton">Find Place</button>
+                <input id="zipCode" type="text" placeholder="Enter a zip code" /> <button id="searchButton">Find Place</button>
                 <div>Places:</div>
-              <div id="gmp-map"></div>
+                <div id="map"></div>
             </div>
-
-
-
-
-
-
-
-
 
 
 
