@@ -9,25 +9,12 @@ searchButton.addEventListener("click", function() {
 
 });
 
-
-
 function initMap() {
-    const myLatLng = {
-      lat: 27.98325538635254,
-      lng: -81.69874572753906
-    };
-    const map = new google.maps.Map(document.getElementById("gmp-map"), {
-      zoom: 13,
-      center: myLatLng,
-      fullscreenControl: false,
-      zoomControl: true,
-      streetViewControl: false
-    });
-    new google.maps.Marker({
-      position: myLatLng,
-      map,
-      title: "My location"
-    });
-  }
+  map = new google.maps.Map(document.getElementById("map"), {
+    mapId: "7529ca942338d272",
+    center: { lat: 28, lng: -81.7 },
+    zoom: 11,
+  });
+}
 
-    
+window.initMap = initMap;

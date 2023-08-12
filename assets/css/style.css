@@ -4,7 +4,7 @@
 
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
- #gmp-map {
+ #map {
     height: 70%;
     margin-bottom: 60%;
   }
@@ -16,3 +16,5 @@
     margin: 0;
     padding: 0;
   }
+
+  
